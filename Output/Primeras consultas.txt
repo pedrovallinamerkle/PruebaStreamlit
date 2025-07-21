@@ -1,0 +1,48 @@
+1. 📈 Campañas con más conversiones totales
+SELECT Campaign, SUM(Total_Conversions) AS Total_Conversions
+FROM conversions
+GROUP BY Campaign
+ORDER BY Total_Conversions DESC
+LIMIT 10;
+
+2. 💰 Campañas con más ingresos generados
+SELECT Campaign, SUM(Total_Revenue) AS Total_Revenue
+FROM conversions
+GROUP BY Campaign
+ORDER BY Total_Revenue DESC
+LIMIT 10;
+
+3. 🧮 Distribución de tipos de conversión
+SELECT
+  SUM(Clickthrough_Conversions) AS Total_Clickthrough,
+  SUM(Viewthrough_Conversions) AS Total_Viewthrough,
+  ROUND(100.0 * SUM(Clickthrough_Conversions) / SUM(Total_Conversions), 2) AS Clickthrough_Percentage,
+  ROUND(100.0 * SUM(Viewthrough_Conversions) / SUM(Total_Conversions), 2) AS Viewthrough_Percentage
+FROM conversions;
+
+4. 🏆 Sitios con mejor rendimiento (ROI = Revenue / Conversions)
+SELECT Site_CM360,
+       SUM(Total_Revenue) / NULLIF(SUM(Total_Conversions), 0) AS ROI
+FROM conversions
+GROUP BY Site_CM360
+HAVING SUM(Total_Conversions) > 0
+ORDER BY ROI DESC
+LIMIT 10;
+
+5. 🔍 Placements con mayor volumen de conversiones
+SELECT Placement, SUM(Total_Conversions) AS Total_Conversions
+FROM conversions
+GROUP BY Placement
+ORDER BY Total_Conversions DESC
+LIMIT 10;
+
+6. 📅 Evolución mensual de conversiones
+SELECT Month, SUM(Total_Conversions) AS Total_Conversions
+FROM conversions
+GROUP BY Month
+ORDER BY Month;
+
+7. ⚠️ Campañas sin nombre (posibles errores de etiquetado)
+SELECT *
+FROM conversions
+WHERE Campaign IS NULL OR Campaign = '---';

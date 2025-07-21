@@ -1,0 +1,60 @@
+✅ Versión A: Equipo de Marketing
+Tono: Analítico y orientado a la acción
+Objetivo: Identificar oportunidades de optimización y definir próximos pasos tácticos.
+
+1. Principales insights y métricas clave
+📈 Evolución mensual de Total Conversions:
+
+Mes	Total Conversions
+2025-01	2,808,798
+2025-02	2,378,062
+2025-03	2,602,258
+🔍 Distribución de tipos de conversión:
+
+Clickthrough: 12,645,154 (81.2%)
+Viewthrough: 2,934,277 (18.8%)
+🏆 Campañas destacadas:
+
+Más conversiones: Campaña sin nombre (---) con 7,790,313 conversiones.
+Más revenue: Campaña sin nombre (---) con 9.658.000 €.
+💰 Top campañas por revenue:
+
+Campaign	Revenue (€)
+---	9,658,000
+2. Oportunidades de optimización
+Placements con alto volumen:
+
+Placement	Total Conversions
+Pizzeria´s Pizza 2020 SEM Continuidad	6,250,621
+DV360_FU-CROISSANTIZZIMA_DIS_MEDIUM-REC_300x250_RET	222,045
+MAINKORE_FU-CROISSANTIZZIMA_DIS_MEDIUM-REC_300x250_RET	177,294
+Sites con mejor ROI:
+
+Site (CM360)	Revenue/Conversion (€)
+DAN_ES_DV360_PROGRAMATICA	2.91
+DAN_ES_MAINKORE	1.37
+DART Search : Google	1.04
+Campañas sin nombre (---) concentran gran parte del volumen y revenue. Se recomienda revisar su configuración y segmentación para identificar oportunidades de escalado o segmentación más precisa.
+
+3. Siguientes pasos tácticos
+🔄 Revisar campañas sin nombre: identificar si son agregados o errores de etiquetado.
+🎯 Optimizar placements de alto volumen: aplicar test A/B en los top 3 placements para mejorar CTR y conversiones.
+📊 Refinar targeting en sites con bajo ROI: priorizar inversión en DAN_ES_DV360_PROGRAMATICA y reducir en sitios con ROI < 1.
+🧪 Aumentar inversión en formatos con alto viewthrough si el objetivo es awareness.
+🧭 Versión B: Equipo Directivo
+Tono: Ejecutivo, conciso y estratégico
+Objetivo: Evaluar impacto en objetivos corporativos y definir líneas estratégicas.
+
+1. Hallazgos críticos
+El 81% de las conversiones provienen de clickthrough, lo que indica una fuerte respuesta directa a los anuncios.
+La campaña con mayor impacto generó 7,79M conversiones y 9,65M € en revenue.
+El site DAN_ES_DV360_PROGRAMATICA lidera en eficiencia con 2,91 € por conversión.
+2. Impacto en visión y objetivos
+📈 Crecimiento sostenido en conversiones mensuales, con ligera caída en febrero.
+💸 ROI positivo en los principales sites, especialmente en programática (DV360).
+🧩 Concentración de resultados en pocas campañas y placements: riesgo de dependencia.
+3. Recomendaciones estratégicas
+✅ Consolidar inversión en sites con ROI > 2 €, como DAN_ES_DV360_PROGRAMATICA.
+⚠️ Auditar campañas sin nombre para evitar pérdida de trazabilidad y control.
+📉 Reducir inversión en sites con ROI < 1 € y redistribuir hacia canales más rentables.
+🧠 Explorar diversificación de formatos y audiencias para reducir dependencia de campañas dominantes.
